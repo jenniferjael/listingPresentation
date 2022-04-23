@@ -1,43 +1,61 @@
 body {
-  background-color: black;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
+  background: radial-gradient(
+    98.31% 98.31% at 50.03% 103.64%,
+    #535353 0,
+    #1e1e1f 100%
+  );
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header {
-  margin-top: 5px;
+  /* margin-top: 5px; */
   width: 100%;
   height: 100%;
 }
 
 .navFront {
-  background-color: #2b2d2f;
+  /* background-color: #2b2d2f; */
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.navbar {
+  border: none;
+  margin-bottom: 0;
 }
 .navbar-brand {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
-
 }
+
 .navUl {
   font-size: 20px;
 }
 .navUl li {
   margin: auto 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.fa-bars {
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-collapse {
+  margin-left: 0 !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(238, 236, 236);
+}
 main {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
-  display: inline-flex;
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  /* display: inline-flex;
   width: 100%;
-  height: 100%;
+  height: 100%; */
 }
 section,
 .aboutKW {
@@ -47,117 +65,286 @@ section,
   height: 100%;
   list-style: none;
 }
-.nameJen {
+
+.hiThere-section {
+  padding: 5px;
+}
+.hiThere-section p {
+  margin-left: 2rem;
+  font-size: 18px;
+  color: grey;
+}
+
+.hiThere-section > p:nth-child(3) {
+  margin-left: 25%;
+}
+.nameJen,
+.agent {
   color: whitesmoke;
-  font-size: 100px;
-  margin-top: 100px;
+  /* font-size: 100px; */
+  /* margin-top: 100px; */
   text-align: center;
+  margin: 20px auto;
+  font-family: "Times New Roman", Times, serif;
 }
 .agent {
-  text-align: center;
-  font-size: 80px;
+  background: -webkit-linear-gradient(#ffeb3b, darkgoldenrod);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.frontP {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 60px;
+.frontP,
+.frontP2 {
+  padding: 5px 5px 0;
+  margin: 20px auto 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: -webkit-linear-gradient(#ffeb3b, darkgoldenrod);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frontP2 {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
-aside {
+.img-container {
   display: inline-flex;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 }
 .myPicture {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
 }
 .kwLogo {
-  margin-left: 20%;
-  margin-right: 5%;
+  /* margin-left: 20%; */
+  margin-right: 10%;
 }
 
-footer{
-    width: 100%;
-    height: 100%;
-}
-.carousel slide{
-    display: center;
-}
-.aboutH2{
-     margin-bottom: 2%;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     background-color: brown;
-     padding: 2%;
-     width: 60%;
-     height: 30%;
-     margin-right: 20%;
-    margin-left: 20%;
-    color: whitesmoke;
-     
-}
-.personalImgs{
-  display: -webkit-inline-box;
-    width: 60%;
-    height: 50%;
-    margin-right: 20%;
-    margin-left: 20%;
+footer {
+  padding: 20px 0 5px;
+  color: white;
+  /* background: radial-gradient(
+    98.31% 98.31% at 50.03% 103.64%,
+    #1e1e1f 0,
+    #5958588c 100%
+  ); */
+  text-align: center;
 }
 
-.aboutmain{
-    padding: 2%;
-    width: 90%;
-    height: auto;
+.havequest-container {
+  background-color: rgba(219, 216, 216, 0.739);
+  padding: 5px;
 }
-.aboutSection1{
-  display: inline;
-    text-align: center;
-    width: fit-content;
-    height: fit-content;
-}
-.aboutSection2{
-display: inline;
-width: 20%;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 20px;
 
+.havequest-container p {
+  margin-top: 10px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(rgb(20, 20, 20), rgb(105, 105, 105));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.aboutsubtitle{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-    text-decoration: underline;
-    color: brown;
-   
+
+.myPhoneNumber {
+  margin: 10px auto 20px;
+  font-size: 18px;
 }
-.aboutsubtitle2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-    text-decoration: underline;
-    color: brown;
-    font-size: 50PX; 
+
+.contactInfo a {
+  color: white;
+  margin: 10px;
 }
-.aboutmeAside{
-    width: auto;
-    background-color: brown;
+
+footer p {
+  font-size: 25px;
 }
-.aboutUL{
-    width: auto;
+
+footer > ul {
+  padding-left: 0;
 }
-.aboutarticle2{
-    width: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    color: white; 
-    padding: 2%;
-   
+
+.carousel slide {
+  display: center;
 }
-.straH2{
+.aboutH2,
+.straH2,
+.straH2B {
   margin-bottom: 2%;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     background-color: brown;
-     padding: 1%;
-     width: 80%;
-     height: 40%;
-    color: whitesmoke;
-    font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-color: brown; */
+  padding: 2%;
+  /* width: 60%;
+  height: 30%; */
+  /* margin-right: 20%;
+  margin-left: 20%; */
+  color: whitesmoke;
+}
+.personalImgs {
+  display: -webkit-inline-box;
+  width: 60%;
+  height: 50%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.aboutmain {
+  padding: 10px 7%;
+  font-size: 18px;
+}
+
+.aboutmain p {
+  font-size: 18px;
+}
+.whyKw {
+  -webkit-text-fill-color: brown !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px rgb(49, 48, 48) !important;
+}
+
+.aboutmain h2 {
+  background: -webkit-linear-gradient(#ffeb3b, darkgoldenrod);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-item img {
+  width: 50% !important;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.aboutSection1 {
+  display: inline;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+.aboutSection2 {
+  display: inline;
+  width: 20%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-size: 20px; */
+}
+.aboutsubtitle {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: auto;
+  text-decoration: underline;
+  /* color: brown; */
+}
+.aboutsubtitle2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: auto;
+  text-decoration: underline;
+  /* font-size: 50px; */
+}
+
+.aboutUl {
+  padding-left: 0;
+  text-align: center;
+}
+
+.aboutUl img {
+  width: 100%;
+}
+
+.aboutUl li {
+  background-color: brown;
+  margin-bottom: 20px;
+}
+
+.aboutarticle2 {
+  width: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: white;
+  padding: 2%;
+}
+.planSuccess,
+.carousel {
+  background: radial-gradient(
+    98.31% 98.31% at 50.03% 103.64%,
+    rgb(216, 94, 94) 0,
+    brown 100%
+  );
+}
+.straH2,
+.straH2B {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.straH2 {
+  margin-bottom: -20px;
+  text-align: center;
+}
+.straH2B {
+  margin-top: 0;
+  text-align: center;
+}
+.servicesMain {
+  padding: 10px 7%;
+  font-size: 18px;
+}
+
+.servicesMain h2 {
+  background: -webkit-linear-gradient(#ffeb3b, darkgoldenrod);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.servicesMain h1,
+h2,
+li,
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.strategy-container p {
+  font-size: 18px;
+  padding: 10px 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .navUl {
+    display: contents;
+  }
+  .navUl li {
+    margin-right: 4%;
+  }
+
+  .straH2,
+  .straH2B {
+    font-size: 45px;
+  }
+  .straH2 {
+    margin-bottom: -30px;
+  }
+  .carousel-item img {
+    width: 25% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    width: 50%;
+    margin: auto;
+  }
+  .carousel-item img {
+    width: 20% !important;
+  }
+  .aboutmain,
+  .servicesMain {
+    width: 80%;
+  }
+  .carousel-inner {
+    width: 75%;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 20%;
+  }
+  .carousel-control-next {
+    right: 20%;
+  }
 }
