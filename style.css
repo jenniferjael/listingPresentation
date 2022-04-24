@@ -8,7 +8,6 @@ body {
     98.31% 98.31% at 50.03% 103.64%,
     #141313 0%,
     #1e1e1f 100%
-    
   );
 }
 header {
@@ -294,6 +293,15 @@ p {
   width: 90%;
 }
 
+.lastparr {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 5%;
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 @media screen and (min-width: 768px) {
   .navUl {
     display: contents;
@@ -342,5 +350,10 @@ p {
   }
   .strategyImg {
     width: 40%;
+  }
+  body{
+    width: 80%;
+    margin: auto;
+    background-color: #1e1e1f;
   }
 }
